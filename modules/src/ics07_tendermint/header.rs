@@ -79,7 +79,7 @@ impl From<Header> for RawHeader {
     }
 }
 
-#[cfg(test)]
+// #[cfg(test)]
 pub mod test_util {
     use std::convert::TryInto;
     use subtle_encoding::hex;
